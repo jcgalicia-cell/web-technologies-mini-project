@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact page with a validated form for the student mini-project website.">
+  <meta name="keywords" content="contact form, validation, student website">
+  <meta name="author" content="John Paul Benedict Galicia">
+  <title>My Simple Web Portfolio | Contact</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Home">
+        <img src="assets/logo.svg" alt="Simple geometric logo" width="36" height="36">
+        <span>My Simple Web Portfolio</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="nav">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a class="active" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">Contact page</p>
+        <h1>Use the form below for feedback, questions, or project remarks.</h1>
+        <p class="lead">The form checks the input before submission so the page uses JavaScript for validation.</p>
+      </div>
+    </section>
+
+    <section class="container section contact-grid">
+      <form id="contact-form" class="contact-form" novalidate>
+        <label for="name">Full Name</label>
+        <input id="name" name="name" type="text" placeholder="Enter your name">
+        <small class="error" id="name-error"></small>
+
+        <label for="email">Email Address</label>
+        <input id="email" name="email" type="email" placeholder="Enter your email">
+        <small class="error" id="email-error"></small>
+
+        <label for="message">Message</label>
+        <textarea id="message" name="message" rows="6" placeholder="Write your message"></textarea>
+        <small class="error" id="message-error"></small>
+
+        <button class="btn btn-primary" type="submit">Submit</button>
+        <p class="form-status" id="form-status" aria-live="polite"></p>
+      </form>
+
+      <aside class="info-card contact-note">
+        <h2>Quick details</h2>
+        <p><strong>Project:</strong> Web Technologies Mini-Project</p>
+        <p><strong>Prepared by:</strong> John Paul Benedict Galicia and Gian</p>
+        <p><strong>Live link:</strong> add your published URL here after deployment</p>
+        <p class="muted">This page is made to demonstrate form validation, user feedback, and simple page design.</p>
+      </aside>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>Prepared by John Paul Benedict Galicia and groupmate Gian.</p>
+      <p>Web Technologies Mini-Project</p>
+    </div>
+  </footer>
+</body>
+</html>

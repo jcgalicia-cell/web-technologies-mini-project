@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="About page for the student mini-project website. Highlights the concept, modules, and learning outcomes.">
+  <meta name="keywords" content="about page, student project, web technologies, modules">
+  <meta name="author" content="John Paul Benedict Galicia">
+  <title>My Simple Web Portfolio | About</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Home">
+        <img src="assets/logo.svg" alt="Simple geometric logo" width="36" height="36">
+        <span>My Simple Web Portfolio</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="nav">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <p class="eyebrow">About the project</p>
+        <h1>Designed as a simple student website with a clear structure.</h1>
+        <p class="lead">The goal is to show what we learned from Modules 1 to 7 in one short, practical website.</p>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="grid two-up">
+        <article class="info-card">
+          <h2>Project idea</h2>
+          <p>This website is a personal-style portfolio that introduces the project, explains the learning process, and provides a contact form. It uses straightforward layout choices so the content is easy to read and present during submission.</p>
+        </article>
+        <article class="info-card">
+          <h2>What I learned</h2>
+          <ul class="clean-list">
+            <li>Module 1: websites, hosting, pages, and navigation</li>
+            <li>Module 2: semantic HTML structure</li>
+            <li>Module 3: CSS styling and layout</li>
+            <li>Module 4: JavaScript basics</li>
+            <li>Module 5: responsive design</li>
+            <li>Module 6: Git branches and commits</li>
+            <li>Module 7: server and deployment basics</li>
+          </ul>
+        </article>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-heading">
+        <p class="eyebrow">Course connection</p>
+        <h2>How the modules fit the website</h2>
+      </div>
+      <div class="timeline">
+        <div class="timeline-item"><span>F1-F2</span><p>HTML structure and semantic layout</p></div>
+        <div class="timeline-item"><span>F3-F4</span><p>JavaScript features for interaction and validation</p></div>
+        <div class="timeline-item"><span>F5</span><p>Design principles, accessibility, and SEO basics</p></div>
+        <div class="timeline-item"><span>F6</span><p>Version control, branches, and meaningful commits</p></div>
+        <div class="timeline-item"><span>F7</span><p>Deployment to a live hosting platform</p></div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>Prepared by John Paul Benedict Galicia and groupmate Gian.</p>
+      <p>Web Technologies Mini-Project</p>
+    </div>
+  </footer>
+</body>
+</html>

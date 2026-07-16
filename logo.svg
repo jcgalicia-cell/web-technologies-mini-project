@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" role="img" aria-label="Simple geometric logo">
+  <rect width="128" height="128" rx="28" fill="#1f6feb"/>
+  <circle cx="64" cy="46" r="20" fill="#ffffff" opacity="0.96"/>
+  <path d="M32 92c7-18 22-27 32-27s25 9 32 27" fill="none" stroke="#ffffff" stroke-width="12" stroke-linecap="round"/>
+  <path d="M38 40h52" stroke="#dbeafe" stroke-width="10" stroke-linecap="round"/>
+</svg>

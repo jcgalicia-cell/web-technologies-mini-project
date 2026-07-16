@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="A simple responsive student website built with HTML, CSS, JavaScript, Git, and deployment practice.">
+  <meta name="keywords" content="HTML, CSS, JavaScript, responsive website, student project, Git, deployment">
+  <meta name="author" content="John Paul Benedict Galicia">
+  <title>My Simple Web Portfolio | Home</title>
+  <link rel="icon" href="assets/logo.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav-wrap">
+      <a class="brand" href="index.html" aria-label="Home">
+        <img src="assets/logo.svg" alt="Simple geometric logo" width="36" height="36">
+        <span>My Simple Web Portfolio</span>
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="primary-nav">Menu</button>
+      <nav id="primary-nav" class="nav">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-grid">
+        <div>
+          <p class="eyebrow">Web Technologies Mini-Project</p>
+          <h1>Simple, clean, and responsive website for F1 to F7.</h1>
+          <p class="lead">This project shows the basics of semantic HTML, CSS layout, JavaScript interactivity, version control, and deployment in one student-friendly site.</p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="about.html">Learn More</a>
+            <a class="btn btn-secondary" href="contact.html">Send a Message</a>
+          </div>
+          <p class="meta-line"><strong>Today:</strong> <span id="current-date">Loading date...</span></p>
+          <p class="meta-line"><strong>Greeting:</strong> <span id="greeting">Hello!</span></p>
+        </div>
+        <div class="hero-card">
+          <img src="assets/hero.svg" alt="Abstract web development illustration" class="hero-image">
+          <div class="card-stats">
+            <div><strong>3</strong><span>pages</span></div>
+            <div><strong>2+</strong><span>JS features</span></div>
+            <div><strong>100%</strong><span>responsive</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="container section">
+      <div class="section-heading">
+        <p class="eyebrow">What this website includes</p>
+        <h2>Built to match the course modules</h2>
+      </div>
+      <div class="grid three-up">
+        <article class="info-card">
+          <h3>HTML and CSS</h3>
+          <p>Semantic structure, layout, typography, colors, and simple page design are applied across all pages.</p>
+        </article>
+        <article class="info-card">
+          <h3>JavaScript</h3>
+          <p>Interactive menu toggle, date and greeting display, and contact form validation make the site more dynamic.</p>
+        </article>
+        <article class="info-card">
+          <h3>Git and Deployment</h3>
+          <p>The project is designed for branching, committing, and publishing online through GitHub Pages or a similar service.</p>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <p>Prepared by John Paul Benedict Galicia and groupmate Gian.</p>
+      <p>Web Technologies Mini-Project</p>
+    </div>
+  </footer>
+</body>
+</html>
