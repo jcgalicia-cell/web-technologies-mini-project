@@ -1,4 +1,4 @@
-# My Simple Web Portfolio
+# 3TSY2526_IT0043L_TC08-11 Mini-Project Website
 
 A 3-page student website built for the Web Technologies mini-project.
 
